@@ -1,0 +1,27 @@
+﻿  main2.cpp
+D:\laptop\D\SeamCarving\Seam_Carving\main2.cpp(74,25): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\laptop\D\SeamCarving\Seam_Carving\main2.cpp(108,70): warning C4244: 'argument': conversion from 'float' to 'Uint8', possible loss of data
+D:\laptop\D\SeamCarving\Seam_Carving\main2.cpp(108,58): warning C4244: 'argument': conversion from 'float' to 'Uint8', possible loss of data
+D:\laptop\D\SeamCarving\Seam_Carving\main2.cpp(108,46): warning C4244: 'argument': conversion from 'float' to 'Uint8', possible loss of data
+D:\laptop\D\SeamCarving\Seam_Carving\main2.cpp(198,48): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+main2.obj : error LNK2019: unresolved external symbol SDL_CreateRGBSurfaceFrom referenced in function SDL_main
+main2.obj : error LNK2019: unresolved external symbol SDL_FreeSurface referenced in function SDL_main
+main2.obj : error LNK2019: unresolved external symbol SDL_CreateWindow referenced in function SDL_main
+main2.obj : error LNK2019: unresolved external symbol SDL_PollEvent referenced in function SDL_main
+main2.obj : error LNK2019: unresolved external symbol SDL_CreateRenderer referenced in function SDL_main
+main2.obj : error LNK2019: unresolved external symbol SDL_CreateTextureFromSurface referenced in function SDL_main
+main2.obj : error LNK2019: unresolved external symbol SDL_SetRenderDrawColor referenced in function "void __cdecl print_Grid(float * *,int,int,int,int,struct SDL_Renderer *)" (?print_Grid@@YAXPEAPEAMHHHHPEAUSDL_Renderer@@@Z)
+main2.obj : error LNK2019: unresolved external symbol SDL_RenderClear referenced in function SDL_main
+main2.obj : error LNK2019: unresolved external symbol SDL_RenderFillRect referenced in function "void __cdecl print_Grid(float * *,int,int,int,int,struct SDL_Renderer *)" (?print_Grid@@YAXPEAPEAMHHHHPEAUSDL_Renderer@@@Z)
+main2.obj : error LNK2019: unresolved external symbol SDL_RenderCopyEx referenced in function SDL_main
+main2.obj : error LNK2019: unresolved external symbol SDL_RenderPresent referenced in function SDL_main
+main2.obj : error LNK2019: unresolved external symbol SDL_DestroyTexture referenced in function SDL_main
+main2.obj : error LNK2019: unresolved external symbol SDL_GetTicks referenced in function SDL_main
+main2.obj : error LNK2019: unresolved external symbol SDL_Init referenced in function SDL_main
+main2.obj : error LNK2019: unresolved external symbol IMG_Load referenced in function SDL_main
+MSVCRTD.lib(exe_main.obj) : error LNK2019: unresolved external symbol main referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+Headers\SDL2-2.0.8\lib\x86\SDL2.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+Headers\SDL2-2.0.8\lib\x86\SDL2main.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+Headers\SDL2-2.0.8\lib\x86\SDL2_image.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+Headers\SDL2-2.0.8\lib\x86\SDL2_mixer.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+D:\laptop\D\SeamCarving\x64\Debug\Seam_Carving.exe : fatal error LNK1120: 16 unresolved externals
